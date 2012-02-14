@@ -61,7 +61,7 @@ lds = hba2; // larghezza denti spina
 ltu2 = 6; // larghezza tubolare telaio
 htu2 = 3; // altezza tubolare telaio
 
-span = 3; // spessore pannello forex
+span = 1.9; // spessore pannello forex
 spra = 12; // ingombro prato
 
 amc = 250;// altezza montante centrale
