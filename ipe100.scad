@@ -666,7 +666,7 @@ module pannellocongancioponte () {
 *projection (cut = true) translate ([0,0,-2.5]) rotate ([90,0,0]) tubolareintestato ();
 *projection (cut = true) translate ([0,0,-5]) tubolareintestato ();
 *tubolareintestato ();
-travecontubi ();
+*travecontubi ();
 *piastramuro ();
 *piastramurocontrave ();
 
@@ -681,7 +681,7 @@ travecontubi ();
 *pannello();
 *projection (cut = true) rotate ([90,0,0]) pannello();
 *telaioepannello();
-*pannellosullastruttura();
+for (i=[0,1]) for (j=[0,1]) translate ([i * lacam,0,j*ltrav]) pannellosullastruttura();
 *slittasulpannello();
 *dado();
 *travi();
